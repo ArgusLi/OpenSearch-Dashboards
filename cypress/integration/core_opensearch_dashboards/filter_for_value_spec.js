@@ -11,7 +11,7 @@ describe('filter for value spec', () => {
   beforeEach(() => {
     cy.localLogin(Cypress.env('username'), Cypress.env('password'));
     miscUtils.visitPage('app/data-explorer/discover');
-    cy.clickNewSearchButton();
+    cy.getNewSearchButton().click();
   });
   describe('filter actions in table field', () => {
     describe('index pattern dataset', () => {

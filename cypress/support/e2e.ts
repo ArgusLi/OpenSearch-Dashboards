@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import '../utils/commands';
-import '../utils/dashboards/data_explorer/commands';
+import '../utils/commands.js';
+import '../utils/dashboards/data_explorer/commands.js';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
